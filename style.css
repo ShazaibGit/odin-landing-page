@@ -10,7 +10,6 @@ body{
     display: flex;
     flex-direction: column;
     height: 100vh;
-    flex-wrap: wrap;
    
     
     
@@ -28,7 +27,7 @@ body{
     padding-top: 10px;
     padding-bottom:40px;
     flex-shrink: 0;
-  
+    flex-wrap: wrap;
     
     
 }
@@ -193,9 +192,10 @@ button{
     align-items: center;
     background-color: #3882f6;
     border: none;
-    color: #f9faf8;
+    color:#A9A9A9;
     padding: 40px;
     gap: 40px;
+    border-radius: 10px;
     
     
     
@@ -205,4 +205,10 @@ button{
 .button2{
     border: 2px solid #f9faf8;
     
+    
+}
+
+.bottom-slogan{
+    font-size: 25px;
+    color: #f9faf8;
 }
