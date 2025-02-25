@@ -67,7 +67,7 @@ a{
 .hero{
     color: #A9A9A9;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     
 
