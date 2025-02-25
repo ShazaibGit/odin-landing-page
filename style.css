@@ -10,6 +10,8 @@ body{
     display: flex;
     flex-direction: column;
     height: 100vh;
+    flex-wrap: wrap;
+   
     
     
    
@@ -24,7 +26,9 @@ body{
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 10px;
-    padding-bottom:20px;
+    padding-bottom:40px;
+    flex-shrink: 0;
+  
     
     
 }
@@ -62,7 +66,11 @@ a{
 }
 
 .hero{
- 
+    color: #A9A9A9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
 
 
 }
@@ -71,5 +79,130 @@ a{
 .heading{
     font-size: 48px;
     font-weight: 900;
+    color: #f9faf8;
 }
-.
+button{
+    width: 100px;
+    padding: 8px;
+    color: white;
+    background-color: #3882f6;
+    border-radius: 7px;
+    border:none;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 450px;
+
+
+}
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    background-color: #A9A9A9;
+    height: 240px;
+    width: 400px;
+    color: #f9faf8;
+}
+
+
+.upper-mid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.cards-container{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    
+}
+.card{
+    color: #A9A9A9;
+    font-size: 12px;
+
+   
+}
+
+.box{
+    height:100px;
+    width: 100px;
+    border-radius: 10%;
+    border: 3px solid #3882f6;
+
+}
+
+
+.card1{
+    height: 200px;
+    width: 100px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.random{
+    padding: 10px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.bot-mid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #e5e7eb;
+    font-size: 30px;
+    font-family: light italic;
+    color: #1F2937;
+    padding: 50px;
+    font-weight: 50; 
+};
+
+.thor{
+    align-self: flex-end;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+
+
+    
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    border: none;
+    color: #f9faf8;
+    padding: 40px;
+    gap: 40px;
+    
+    
+    
+
+}
+
+.button2{
+    border: 2px solid #f9faf8;
+    
+}
